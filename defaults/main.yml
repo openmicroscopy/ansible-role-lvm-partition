@@ -1,4 +1,7 @@
 ---
 # defaults file for roles/lvm-partitions
 
+lvm_shrink: True
 lvm_lvopts:
+lvm_lvmount_dump: 1
+lvm_lvmount_passno: 2

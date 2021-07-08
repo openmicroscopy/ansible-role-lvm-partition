@@ -23,6 +23,9 @@ Optional variables:
 
 - `lvm_shrink`: Shrink if current size is higher than size requested (default: True)
 - `lvm_lvopts`: Logical volume creation options (default: None)
+- `lvm_lvmount_dump`: Mount option (dump) for the filesystem mount point (default: 1)
+- `lvm_lvmount_passno`: Mount option (passno) for the filesystem mount point (default: 2)
+
 
 Author Information
 ------------------
